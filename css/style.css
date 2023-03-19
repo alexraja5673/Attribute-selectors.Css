@@ -1,0 +1,21 @@
+p[class]{
+	background-color:red;
+}
+a[class=_lin]{
+	background-color:aqua;
+}
+[title~=free] {
+	background-color:aqua;
+}
+[alt|=car]{
+	border:5px solid green;
+}
+[class^=re]{
+	background-color:blue;
+}
+[class$=nd]{
+	background-color:gray;
+}
+[class*=no]{
+	background-color:pink;
+}
